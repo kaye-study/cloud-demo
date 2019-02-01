@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-git/config-git.iml" filepath="$PROJECT_DIR$/config-git/config-git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer01/consumer01.iml" filepath="$PROJECT_DIR$/consumer01/consumer01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer02/consumer02.iml" filepath="$PROJECT_DIR$/consumer02/consumer02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mydemo.iml" filepath="$PROJECT_DIR$/mydemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web01/web01.iml" filepath="$PROJECT_DIR$/web01/web01.iml" />
+    </modules>
+  </component>
+</project>
