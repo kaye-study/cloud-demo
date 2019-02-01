@@ -13,6 +13,7 @@
         <module>consumer01</module>
         <module>consumer02</module>
         <module>config-git</module>
+        <module>getaway</module>
     </modules>
 
     <parent>
