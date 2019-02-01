@@ -15,6 +15,13 @@ import org.springframework.web.client.RestTemplate;
 @EnableFeignClients
 public class Consumer02Application {
 
+    /**
+     * 1.注册resttemplate模板
+     * 2.结合ribbo开启负载均衡（默认是轮寻）
+     * 3.负载均衡要求服务的名称要一样
+     *
+     * @return
+     */
     @LoadBalanced
     @Bean
     public RestTemplate restTemplate() {

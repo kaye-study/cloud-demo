@@ -13,9 +13,16 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class Consumer01Application {
 
+    /**
+     * 1.注册resttemplate模板
+     * 2.结合ribbo开启负载均衡（默认是轮寻）
+     * 3.负载均衡要求服务的名称要一样
+     *
+     * @return
+     */
     @Bean
     @LoadBalanced
-    public RestTemplate restTemplate(){
+    public RestTemplate restTemplate() {
         return new RestTemplate();
     }
 
