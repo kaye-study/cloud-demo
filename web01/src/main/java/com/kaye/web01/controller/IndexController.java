@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 
 /**
- * java类作用描述
+ * 服务类
  *
  * @author yk
  * @since 2019/2/1$ 9:49$

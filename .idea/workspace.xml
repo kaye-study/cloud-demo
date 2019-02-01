@@ -64,7 +64,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Web01Application">
+  <component name="RunManager" selected="Spring Boot.ConfigGitApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -136,11 +136,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.Consumer01Application" />
       <item itemvalue="Spring Boot.ConfigGitApplication" />
-      <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.Consumer02Application" />
       <item itemvalue="Spring Boot.Web01Application" />
+      <item itemvalue="Spring Boot.Consumer01Application" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
     </list>
   </component>
   <component name="SshConsoleOptionsProvider">
