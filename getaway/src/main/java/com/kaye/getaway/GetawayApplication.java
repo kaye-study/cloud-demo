@@ -1,8 +1,11 @@
 package com.kaye.getaway;
 
+import com.kaye.getaway.filter.AccessFilter01;
+import com.kaye.getaway.filter.AccessFilter02;
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+import org.springframework.context.annotation.Bean;
 
 /**
  * @SpringCloudApplication包含了一下三个注解的功能
@@ -27,6 +30,26 @@ public class GetawayApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(GetawayApplication.class, args);
+    }
+
+    /**
+     * 实例化第一个过滤器
+     *
+     * @return
+     */
+    @Bean
+    public AccessFilter01 accessFilter01() {
+        return new AccessFilter01();
+    }
+
+    /**
+     * 实例化第二个过滤器
+     *
+     * @return
+     */
+    @Bean
+    public AccessFilter02 accessFilter02() {
+        return new AccessFilter02();
     }
 
 }
