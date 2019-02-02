@@ -1,0 +1,4 @@
+
+wsquid:S3457L"aNo need to call "toString()" method as formatting and string conversion is done by the Formatter.(©Γ¨%
+:squid:S2629L"$Invoke method(s) only conditionally.(©Γ¨%
+Usquid:S3516H"9Refactor this method to not always return the same value.(ρ«βεωÿÿÿÿ
