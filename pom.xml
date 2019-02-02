@@ -54,6 +54,13 @@
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
 
+        <!--正确停止服务组件-->
+        <!--F版本的cloud有点问题待解决-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
         <!--hystrix断路器依赖-->
         <!--
             使用resttemplate的时候用这个断路器

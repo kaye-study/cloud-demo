@@ -13,7 +13,6 @@
         <module name="getaway" />
         <module name="mydemo" />
         <module name="web01" />
-        <module name="zuul-getaway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,7 +23,6 @@
       <module name="getaway" target="1.8" />
       <module name="mydemo" target="1.6" />
       <module name="web01" target="1.8" />
-      <module name="zuul-getaway" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
