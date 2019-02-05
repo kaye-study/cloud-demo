@@ -10,6 +10,7 @@
         <module name="consumer01" />
         <module name="consumer02" />
         <module name="eureka" />
+        <module name="getaway" />
         <module name="mydemo" />
         <module name="web01" />
       </profile>
@@ -19,6 +20,7 @@
       <module name="consumer01" target="1.8" />
       <module name="consumer02" target="1.8" />
       <module name="eureka" target="1.8" />
+      <module name="getaway" target="1.8" />
       <module name="mydemo" target="1.6" />
       <module name="web01" target="1.8" />
     </bytecodeTargetLevel>

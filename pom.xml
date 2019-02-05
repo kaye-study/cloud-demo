@@ -13,6 +13,7 @@
         <module>consumer01</module>
         <module>consumer02</module>
         <module>config-git</module>
+        <module>getaway</module>
     </modules>
 
     <parent>
@@ -29,6 +30,7 @@
             <scope>provided</scope>
         </dependency>
 
+        <!--开启eureka注册-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
@@ -45,6 +47,31 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-feign</artifactId>
         </dependency>
+
+        <!--开启spring cloud config-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+
+        <!--正确停止服务组件-->
+        <!--F版本的cloud有点问题待解决-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <!--hystrix断路器依赖-->
+        <!--
+            使用resttemplate的时候用这个断路器
+            feign方式只需要配置
+            hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=1000
+            feign.hystrix.enabled=true
+        -->
+        <!--<dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+        </dependency>-->
 
     </dependencies>
 

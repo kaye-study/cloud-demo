@@ -24,6 +24,7 @@
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
+        <!--spring cloud config server 依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
