@@ -11,7 +11,7 @@ public class Web01ApplicationTests {
 
     @Test
     public void contextLoads() {
-        System.out.println( "超人不会飞" );
+        System.out.println( "新春快乐！！" );
     }
 
 }
